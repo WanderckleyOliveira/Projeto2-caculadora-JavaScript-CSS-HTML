@@ -1,15 +1,17 @@
-*{
+* {
     margin: 10;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
+       
 }
+
 body{
     background-color: whitesmoke;
 }
 
-.calculador{
+.calculator{
     width: 400px;
     margin: 0 auto;
     background-color: green;
@@ -32,13 +34,13 @@ body{
     border-radius: 5px;
 }
 
-.calculador-buttons{
+.calculator-buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
-    }
+}
 
-.calculator-button{
+.calculator button{
     background-color: black;
     color: white;
     padding: 20px;
