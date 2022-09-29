@@ -112,3 +112,10 @@ const mapaTeclado = {
     Escape: 'limparCalculo',
     ',': 'decimal',
 };
+
+const mapearTeclado = (evento) => {
+    const tecla = evento.key;
+    const teclaPermitida = () => Object.keys(mapaTeclado).indexOf(tecla) !== -1;
+    if (teclaPermitida()) document.getElementById(mapaTeclado[tecla]).click();
+};
+document.addEventListener('keydown', mapearTeclado);
