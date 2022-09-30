@@ -1,2 +1,19 @@
-# Projeto2-caculadora-JavaScript-CSS-HTML
-O objetivo deste trabalho é desenvolver uma calculadora digital praticando JavaScript-CSS-HTML
+# Calculadora
+
+Calculadora simples desenvolvida usando as linguagens básicas da web: HTML, CSS e Javascript
+
+## Recursos
+
+- Quatro operações básicas
+- Fácil de usar
+- Design intuitivo
+
+## Imagem
+
+
+
+## Licença
+
+MIT
+
+**Software Livre**
